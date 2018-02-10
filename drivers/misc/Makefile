@@ -93,4 +93,5 @@ obj-y += motomods/greybus/
 
 # TODO: remove me b/62058353
 subdir-ccflags-y += \
-	-Wno-ignored-attributes
+	-Wno-ignored-attributes \
+	-Wno-shift-overflow
