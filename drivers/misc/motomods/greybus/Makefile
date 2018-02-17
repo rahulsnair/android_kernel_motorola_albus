@@ -82,3 +82,6 @@ obj-y += gb-display.o
 obj-y += gb-usb_ext.o
 
 obj-y += gb-sensors_ext.o
+
+subdir-ccflags-y += \
+	-Wno-enum-conversion
