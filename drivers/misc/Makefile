@@ -90,3 +90,7 @@ obj-$(CONFIG_FSUSB42_MUX) += fsusb42_mux.o
 obj-$(CONFIG_SENSORS_STML0XX) += stml0xx/
 obj-y += motomods/v4l2_hal/
 obj-y += motomods/greybus/
+
+# TODO: remove me b/62057517
+subdir-ccflags-y += \
+	-Wno-ignored-attributes
